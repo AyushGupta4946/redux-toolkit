@@ -1,0 +1,34 @@
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 565px;
+  padding: 15px 15px;
+  background-color: transparent;
+  border: 2px solid violet;
+  border-radius: 10px;
+}
+
+.todoItem {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: lightgray;
+  border: transparent;
+}
+
+.editTodo {
+  border: 1px solid darkgray;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 25px;
+}
