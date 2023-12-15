@@ -41,7 +41,7 @@ function Todo() {
                 <MdDelete />
               </button>
               <button
-                className="btn"
+                className="btn2"
                 onClick={() => {
                   if (editableTodos[todo.id]) {
                     editTodo(todo.id);
